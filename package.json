@@ -35,7 +35,8 @@
     "time-grunt": "^1.2.2"
   },
   "scripts": {
-    "start": "node main_config.js"
+    "postinstall": "grunt uglify",
+    "start": "node server.js"
   },
   "engines": {
     "node": ">=4.4.5"
