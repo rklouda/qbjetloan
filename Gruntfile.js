@@ -1,7 +1,5 @@
 'use strict';
 
-npm install grunt-heroku-deploy
-
 var SERVER_PORT = 9000;
 
 // # Globbing
@@ -177,8 +175,7 @@ module.exports = function(grunt) {
                 port: grunt.option('port') || SERVER_PORT,
                 open: true,
                 // change this to '0.0.0.0' to access the server from outside
-                hostname: '0.0.0.0'
-                //'localhost'
+                hostname: 'localhost'
             },
             dev: {
                 options: {
@@ -323,5 +320,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', ['build']);
     grunt.registerTask('test', ['jshint']);
+    grunt.loadNpmTasks('grunt-heroku-deploy');
 
 };
