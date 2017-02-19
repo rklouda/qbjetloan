@@ -1,9 +1,9 @@
 {
-  "name": "q-municate",
+  "name": "JetLoan",
   "version": "1.10.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:QuickBlox/q-municate-web.git"
+    "url": "https://github.com/rklouda/qbjetloan"
   },
   "license": "(Apache-2.0)",
   "dependencies": {},
