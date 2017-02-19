@@ -1,1 +1,1 @@
-web: node main_config.js
+web: node gruntfile.js
