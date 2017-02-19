@@ -34,7 +34,9 @@
     "load-grunt-tasks": "^3.3.0",
     "time-grunt": "^1.2.2"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node Gruntfile.js"
+  },
   "engines": {
     "node": ">=4.4.5"
   },
