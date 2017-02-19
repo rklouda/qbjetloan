@@ -35,7 +35,7 @@
     "time-grunt": "^1.2.2"
   },
   "scripts": {
-    "start": "node config.js"
+    "start": "node environment.js"
   },
   "engines": {
     "node": ">=4.4.5"
