@@ -1,5 +1,7 @@
 'use strict';
 
+npm install grunt-heroku-deploy
+
 var SERVER_PORT = 9000;
 
 // # Globbing
