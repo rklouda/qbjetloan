@@ -1,6 +1,7 @@
 'use strict';
 
-var SERVER_PORT = 9000;
+//var SERVER_PORT = 9000;
+var SERVER_PORT = process.env.PORT || 3000;
 
 // # Globbing
 
